@@ -14,10 +14,12 @@ assistance with LLVM.
 If you're writing a package for LLVM, see docs/Packaging.html for our
 suggestions.
 
+ALL RIGHTS ARE RESERVED TO [LLVM Official Site](http://llvm.org/releases/download.html)
+
 # How To Build
 1. `mkdir build`
 2. `cd build`
-3. `../configure --target-list=arm-softmmu --prefix=$PWD` If you want to install llvm in your system, please take away the --prefix option
+3. `../configure --prefix=$PWD` If you want to install llvm in your system, please take away the --prefix option
 4. `make -j5`
 5. `make install` (Optional, you may need root permission)
 

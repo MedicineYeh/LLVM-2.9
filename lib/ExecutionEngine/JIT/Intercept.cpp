@@ -16,6 +16,7 @@
 //===----------------------------------------------------------------------===//
 
 #include "JIT.h"
+#include <unistd.h>
 #include "llvm/Support/ErrorHandling.h"
 #include "llvm/Support/DynamicLibrary.h"
 #include "llvm/Config/config.h"
